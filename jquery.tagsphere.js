@@ -510,12 +510,7 @@ function mqueue(size, negate){
                                   motiony.reset();
                               });
 
-         container.mousewheel(function(evt, delta){
-                                  zoomed(delta);
-                                  evt.preventDefault();
-                                  return false;
-                              });
-
+      
 
      };
           
