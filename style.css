@@ -1,0 +1,203 @@
+#Contianer
+{
+	position: fixed;
+	min-height: 35px;
+	z-index: 99;
+	color: white;
+}
+
+
+.knowUsPopupbox
+{
+	display:none;
+	position:absolute;
+	width:400px;
+	height:300px;
+	z-index:9999;	
+}
+
+.KUcloseBox,.KUcloseBoxx{
+	color:red;
+	float:right;
+	margin-right: 5%;
+}
+
+
+.inBubbleText
+{
+	overflow-Y: hidden;
+	overflow-Y: scroll;
+	height: 100px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #CCC;
+}
+
+.x
+{
+	
+	height: 650px;
+	width: 650px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	white-space: nowrap;
+	margin-top: 5%;
+	margin-left: 28%;
+	overflow:hidden;
+	z-index: 9999;
+}
+
+.tagcloud
+
+{
+	margin-left: 200px;
+	margin-top: 90px;
+}
+
+.box_appear
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	
+}
+
+.abs{
+	position:absolute;	
+}
+
+
+
+.oval-thought-border
+ {
+	text-align: justify;
+	position: relative;
+	padding: 55px 20px;
+	margin: 1em auto 1px;
+	border: 7px dotted #333;
+	text-align: left;
+	color: #333;
+	height: 150px;
+	width: 350px;
+	background: transparent;
+	left: 25px;
+	top: -850px;
+	-webkit-border-top-left-radius:900px 550px;
+	-webkit-border-top-right-radius:900px 550px;
+	-webkit-border-bottom-right-radius:900px 550px;
+	-webkit-border-bottom-left-radius:900px 550px;
+	-moz-border-radius:900px / 550px;
+	border-radius:900px / 550px;
+
+ }
+
+
+
+	/* css3 */
+	/*
+	NOTES:
+	-webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+#thougt	
+	-webkit-border-top-left-radius:240px 140px;
+	-webkit-border-top-right-radius:240px 140px;
+	-webkit-border-bottom-right-radius:240px 140px;
+	-webkit-border-bottom-left-radius:240px 140px;
+	-moz-border-radius:240px / 140px;
+	border-radius:240px / 140px;
+	left: -625px;
+	top: -381px;
+}
+
+/* creates the larger circle */
+.oval-thought-border:before {
+	content:""; 
+	position:absolute; 
+	z-index:10; 
+	bottom:-40px; 
+	right:100px; 
+	width:50px; 
+	height:150px;
+	border:10px outset #333;
+	background: transparent;
+	/* css3 */
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	border-radius:50px;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+}
+
+/* creates the smaller circle */
+.oval-thought-border:after {
+	content:""; 
+	position:absolute; 
+	z-index:10; 
+	bottom:-60px; 
+	right:30px; 
+	width:25px; 
+	height:25px; 
+	border:10px dotted #333;
+	background:transparent;
+	/* css3 */
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border-radius:25px;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+}
+
+#a
+{
+width:19%; /*downsized to give room for fixed width borders*/
+text-align: left;
+}
+#b
+{
+width:19%; /*downsized to give room for fixed width borders*/
+
+text-align: left;
+height: 35px;
+display: table-cell;
+} 
+#c
+{
+width:40%;
+}
+#d,#e{
+min-width: 50px;
+width:10%;
+}
+
+body
+{
+border:0;
+margin: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #FFF;
+    
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #AAA;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #888;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}

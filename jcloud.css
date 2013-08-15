@@ -1,0 +1,89 @@
+body {
+margin: 0px;
+padding: 20px 50px;
+font-family: Arial;
+}
+h1, h2 {
+margin: 0px;
+font-style: italic;
+}
+pre {
+border: 1px dotted #000000;
+padding: 20px;
+}
+/******* jCloud *******/
+div#jcloud {
+	
+	
+	
+	max-height: 205px;
+	max-width: 400px;
+	
+	margin: 40px auto;
+	margin-left: 180px;
+	margin-top:20px;
+
+	
+	padding: 60px 0;
+	text-align: center; width: 300px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	-o-border
+	-webkit-background-clip: padding-box;
+	
+	border-radius: 80px;
+	overflow:hidden;
+	
+	   
+	/*border-bottom-left-radius: 150px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	/*for mozilla browser*/
+	/*-moz-border-bottom-left-radius: 150px;
+	-moz-border-top-left-radius: 100px;
+	-moz-border-bottom-right-radius: 100px;
+	-moz-border-top-right-radius: 100px;
+	/*for opera browser*/
+	/*-o-border-bottom-left-radius: 150px;
+	-0-border-top-left-radius: 100px;
+	-0-border-bottom-right-radius: 100px;
+	-0-border-top-right-radius: 100px;
+	/*for google browser*/
+	/*-webkit-border-bottom-left-radius: 150px;
+	-webkit-border-top-left-radius: 100px;
+	-webkit-border-bottom-right-radius: 100px;
+	-webkit-border-top-right-radius: 100px;
+	/*for ms browser*/
+	/*-ms-border-bottom-left-radius: 150px;
+	-ms-border-top-left-radius: 100px;
+	-ms-border-bottom-right-radius: 100px;
+	-ms-border-top-right-radius: 100px;
+		-webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+	
+	
+	*/
+}
+.jtag a:link, .jtag a:visited {
+text-decoration: none;
+padding: 2px 4px;
+display: block;
+}
+.jtag a:hover {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5 ease-in-out;
+	
+	transform:scale(2);
+	-moz-transform:scale(2);
+	-ms-transform:scale(2);
+	-o-transform:scale(2);
+	-webkit-transform:scale(2);
+
+}
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+}.background {
+	background-attachment: fixed;
+	height:auto;
+	width:auto;
+	background-image: url(images/final-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:auto;
+}.divtext
+{
+	padding-left: 500px;
+	padding-top: 400px;
+	padding-right: 200px;
+	
+	
+	
+	
+
+
+}
+

@@ -1,0 +1,54 @@
+0.2
+- Initial release
+
+0.3
+- Centered text on points
+- prevented default scroll on mousewheel
+- changed zooming defaults
+- centrex,centrey no longer shared between instances on same page
+- updated included version of jquery.mousewheel
+
+0.4 
+- Rebuilt colour facilities to use custom background and foreground
+colours which, if not defined will be taken from the container's
+colours. Still a bit messy, unset container colours may result in
+all-black output if none specified in the plugin options.  
+- Zoom now works a little better - it was zooming to max on setup 
+- Slightly more efficient, draw() only runs if there has been mouse 
+movement Tidied up a few other minor bits and added a fix by 
+Dmitry Botezat reported in issue #1
+
+0.4.1
+- Sorted out the colour issues, light backgrounds and dark text now work properly
+- z-indexing is now working properly for dark on light
+
+0.4.2
+- forgot to rebuild the minified version
+
+0.4.3
+- tied rotation to mouse vector so movement is consistent across browsers with lower mouse event rates
+
+0.4.4
+- minor update to stop ugly unstyled links appearing on load
+
+1.0 
+- Huge efficiency improvements across the board, no noticable
+CPU spikes on my machine with 2 clouds on screen, and works well on
+the mobile browsers I've tested
+- Initial rotation is now available
+- Color is calculated per element and faded to the background color 
+- Elements are now left as-is, so any classes or styles remain 
+- Mobile events added and tested on iOS and android 2.1
+
+1.1
+- IPad fixes, it now works on them
+- Direction bug fixed on mobile devices, it wasn't resetting the direction on touch end so new touch drags acted strangely
+
+1.1.1
+- More iPad fixes, can click through links now
+- Tidied up touch event code  so it's a bit more predictable
+- Fix for desktop browsers so it stops tracking movement outside the container
+
+1.1.2
+- Rewrote a chunk of mqueue() so it doesn't jump about in the wrong direction on starting now
+- Tidied up some of the mouse movement events to make movement a bit more predictable
